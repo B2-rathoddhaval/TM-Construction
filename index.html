@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TM Construction | Govt. Approved Contractor</title>
+  <meta name="description" content="TM Construction – Govt. Approved Contractor. Owner Tushar Maheshbhai, B.E. Civil Engineer. Government and private construction across Bhavnagar & Amreli." />
+  <meta name="theme-color" content="#0c1424" />
+  <link rel="icon" type="image/png" href="img/logo-navy.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@400;500;600;700;800&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div class="ld" id="loader" aria-hidden="true">
+    <div class="ld__grid"></div>
+    <div class="ld__box">
+      <div class="ld__logo">
+        <img src="img/logo-white.png" alt="" class="ld__ghost" />
+        <img src="img/logo-white.png" alt="" class="ld__fill" />
+      </div>
+      <div class="ld__meta"><span>TM CONSTRUCTION</span><b id="ldPct">0%</b></div>
+      <div class="ld__bar"><span></span></div>
+    </div>
+  </div>
+  <script>
+    try {
+      if (sessionStorage.getItem("tm2-loaded") || matchMedia("(prefers-reduced-motion: reduce)").matches) document.getElementById("loader").remove();
+      else document.documentElement.classList.add("is-loading");
+    } catch (e) { var l = document.getElementById("loader"); if (l) l.remove(); }
+  </script>
+
+  <!-- SVG icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+      <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 0 1 2.2 12C2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9a9.7 9.7 0 0 1 2.9 6.9c0 5.4-4.4 9.8-9.8 9.8zM20.4 3.6A11.8 11.8 0 0 0 12 .1C5.5.1.1 5.4.1 12c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.5 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.3z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></g></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></g></symbol>
+      <symbol id="i-gov" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M4 10h16M12 3 3 8v2h18V8z"/><path d="M6 10v8M10 10v8M14 10v8M18 10v8M3 18h18"/></g></symbol>
+      <symbol id="i-home" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v12h14V9"/><path d="M10 21v-6h4v6"/></g></symbol>
+      <symbol id="i-shop" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9 4.5 4h15L21 9"/><path d="M3 9a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0"/><path d="M5 12v9h14v-9"/><path d="M9 21v-5h6v5"/></g></symbol>
+      <symbol id="i-plan" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1.5"/><path d="M3 9h7v12M10 14h11M15 3v6"/></g></symbol>
+      <symbol id="i-calc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15v3M8 18h4"/></g></symbol>
+      <symbol id="i-helmet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18h20v-2a10 10 0 0 0-20 0z"/><path d="M10 6.2V10M14 6.2V10M9 6.5a10 10 0 0 1 6 0"/></g></symbol>
+      <symbol id="i-cap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 9 12 4 2 9l10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5M22 9v6"/></g></symbol>
+      <symbol id="i-map" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 4-6 2v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></g></symbol>
+      <symbol id="i-key" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.7 12.3 9.3-9.3M16 7l3 3M19 4l2 2"/></g></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+      <symbol id="i-receipt" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2h14v20l-3-2-2 2-2-2-2 2-2-2-3 2z"/><path d="M9 7h6M9 11h6M9 15h4"/></g></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></g></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m15 18-6-6 6-6"/></symbol>
+      <symbol id="i-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m9 18 6-6-6-6"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></g></symbol>
+      <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></g></symbol>
+      <symbol id="i-flag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22V4M4 4h13l-2 4 2 4H4"/></g></symbol>
+      <symbol id="i-hourglass" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h12M6 22h12M7 2v4a5 5 0 0 0 10 0V2M7 22v-4a5 5 0 0 1 10 0v4"/></g></symbol>
+      <symbol id="i-tag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></g></symbol>
+      <symbol id="i-expand" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M18 6 6 18M6 6l12 12"/></symbol>
+      <symbol id="i-status" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></g></symbol>
+      <symbol id="i-image" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></g></symbol>
+      <symbol id="i-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M5 12l7-7 7 7"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-down" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></symbol>
+      <symbol id="i-quote" viewBox="0 0 24 24"><path fill="currentColor" d="M9.6 5C6 6.6 3.5 9.8 3.5 13.7V19h6.3v-6.2H6.6c.2-2.6 1.8-4.6 4.2-5.7zm10.4 0c-3.6 1.6-6.1 4.8-6.1 8.7V19h6.3v-6.2H17c.2-2.6 1.8-4.6 4.2-5.7z"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ===== HEADER (floating pill) ===== -->
+  <header class="hd" id="header">
+    <div class="hd__pill">
+      <a href="index.html" class="hd__brand" aria-label="Home">
+        <img src="img/logo-white.png" alt="TM logo" />
+        <span><strong data-i18n="brand.name">TM Construction</strong><small data-i18n="brand.tag">Govt. Approved Contractor</small></span>
+      </a>
+      <nav class="hd__nav" id="nav">
+        <a href="#home" class="is-cur" data-i18n="nav.home">Home</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#gallery-section" data-i18n="nav.gallery">Gallery</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="hd__right">
+        <button class="lg" id="langToggle" type="button" aria-label="Change language"><span class="lg__opt" data-lang="gu">ગુ</span><span class="lg__opt" data-lang="en">EN</span></button>
+        <a href="tel:+918460502992" class="b b--or hd__call"><svg><use href="#i-phone"/></svg><span data-i18n="btn.call">Call Now</span></a>
+        <button class="burger" id="burger" type="button" aria-label="Menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__grid-bg"></div>
+    <div class="hero__glow"></div>
+    <div class="wrap hero__in">
+      <div class="hero__text">
+        <span class="chip"><i></i><span data-i18n="brand.tag">Govt. Approved Contractor</span></span>
+        <div class="hero__slides" id="heroText">
+          <div class="ht is-active">
+            <h1 data-i18n="s1.title">Building Trust, <span>Brick by Brick</span></h1>
+            <p data-i18n="s1.text"></p>
+          </div>
+          <div class="ht">
+            <h2 class="h1" data-i18n="s2.title"></h2>
+            <p data-i18n="s2.text"></p>
+          </div>
+          <div class="ht">
+            <h2 class="h1" data-i18n="s3.title"></h2>
+            <p data-i18n="s3.text"></p>
+          </div>
+        </div>
+        <div class="hero__btns">
+          <a href="tel:+918460502992" class="b b--or b--lg"><svg><use href="#i-phone"/></svg><span data-i18n="btn.call">Call Now</span></a>
+          <a href="#projects" class="b b--line b--lg"><span data-i18n="btn.projects">View Projects</span><svg><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="hero__ctrl">
+          <span class="hero__num"><b id="slideNo">01</b> / 03</span>
+          <div class="hero__bars" id="bars"><i><s></s></i><i><s></s></i><i><s></s></i></div>
+          <button class="rb" id="prevSlide" aria-label="Previous slide"><svg><use href="#i-left"/></svg></button>
+          <button class="rb" id="nextSlide" aria-label="Next slide"><svg><use href="#i-right"/></svg></button>
+        </div>
+      </div>
+
+      <div class="hero__media">
+        <div class="hero__frame" id="heroFrame">
+          <img class="hi is-active" src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1400&q=75&auto=format&fit=crop" alt="" />
+          <img class="hi" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1400&q=75&auto=format&fit=crop" alt="" />
+          <img class="hi" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=75&auto=format&fit=crop" alt="" />
+          <span class="hero__corner"></span>
+        </div>
+        <div class="float-card float-card--a">
+          <span class="fc__ic"><svg><use href="#i-cap"/></svg></span>
+          <span><strong data-i18n="hl1.t">B.E. Civil Engineer</strong><small data-i18n="about.name">Tushar Maheshbhai</small></span>
+        </div>
+        <div class="float-card float-card--b">
+          <span class="fc__ic fc__ic--or"><svg><use href="#i-pin"/></svg></span>
+          <span><strong data-i18n="hl3.t">Bhavnagar &amp; Amreli</strong><small data-i18n="hl3.s">Districts we serve</small></span>
+        </div>
+        <div class="spin" aria-hidden="true">
+          <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+            <text><textPath href="#circ">TM CONSTRUCTION • BUILD WITH TRUST • </textPath></text></svg>
+          <img src="img/logo-white.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="mq" aria-hidden="true">
+    <div class="mq__track" id="mq">
+      <span data-i18n="srv1.t">Government Tender Works</span><i>✦</i>
+      <span data-i18n="srv2.t">Residential Construction</span><i>✦</i>
+      <span data-i18n="srv3.t">Commercial Construction</span><i>✦</i>
+      <span data-i18n="srv4.t">Planning &amp; Design</span><i>✦</i>
+      <span data-i18n="srv5.t">Estimation &amp; Costing</span><i>✦</i>
+      <span data-i18n="srv6.t">Site Supervision</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT (bento) ===== -->
+  <section class="sec about" id="about">
+    <div class="wrap">
+      <div class="sh rv">
+        <span class="tag-n">01</span>
+        <div>
+          <span class="eyebrow" data-i18n="about.label">About</span>
+          <h2 class="t" data-i18n="about.title">A Civil Engineer <span>Who Builds</span></h2>
+        </div>
+      </div>
+
+      <div class="bento">
+        <div class="bx bx--photo rv">
+          <img src="img/owner-pic.jpeg" alt="Tushar Maheshbhai – Owner, TM Construction" />
+          <div class="bx__name">
+            <strong data-i18n="about.name">Tushar Maheshbhai</strong>
+            <span data-i18n="about.r1">Owner, TM Construction</span>
+          </div>
+        </div>
+
+        <div class="bx bx--text rv">
+          <div class="pills">
+            <span data-i18n="about.r1">Owner, TM Construction</span>
+            <span data-i18n="brand.tag">Govt. Approved Contractor</span>
+            <span data-i18n="about.r3">B.E. Civil Engineering</span>
+          </div>
+          <p class="lead" data-i18n="about.p1"></p>
+          <p data-i18n="about.p2"></p>
+          <ul class="ticks">
+            <li data-i18n="about.c1">Government tender works</li>
+            <li data-i18n="about.c2">Residential &amp; commercial construction</li>
+            <li data-i18n="about.c3">Planning, design &amp; estimation</li>
+            <li data-i18n="about.c4">Personal supervision on site</li>
+          </ul>
+        </div>
+
+        <div class="bx bx--stat rv"><span class="bx__ic"><svg><use href="#i-gov"/></svg></span><div class="num"><span data-count="15">0</span><em>+</em></div><p data-i18n="stat1">Government Works</p></div>
+        <div class="bx bx--stat bx--or rv"><span class="bx__ic"><svg><use href="#i-home"/></svg></span><div class="num"><span data-count="40">0</span><em>+</em></div><p data-i18n="stat2">Homes &amp; Bungalows</p></div>
+        <div class="bx bx--stat rv"><span class="bx__ic"><svg><use href="#i-cal"/></svg></span><div class="num"><span data-count="8">0</span><em>+</em></div><p data-i18n="stat3">Years of Experience</p></div>
+
+        <div class="bx bx--quote rv">
+          <img src="img/owner-pic.jpeg" alt="" />
+          <blockquote>
+            <svg class="q"><use href="#i-quote"/></svg>
+            <p data-i18n="v2.quote">I take up the work myself and do it myself — so the quality is my own responsibility.</p>
+            <cite>— <span data-i18n="about.name">Tushar Maheshbhai</span></cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES (dark list) ===== -->
+  <section class="sec srv" id="services">
+    <div class="wrap srv__grid">
+      <div class="srv__head rv">
+        <span class="tag-n tag-n--light">02</span>
+        <span class="eyebrow eyebrow--light" data-i18n="srv.label">Services</span>
+        <h2 class="t t--light" data-i18n="srv.title">What We <span>Do</span></h2>
+        <p data-i18n="srv.intro"></p>
+        <a href="#contact" class="b b--or"><span data-i18n="btn.enquire">Send Enquiry</span><svg><use href="#i-arrow"/></svg></a>
+      </div>
+      <ol class="srv__list">
+        <li class="sv rv"><span class="sv__n">01</span><span class="sv__ic"><svg><use href="#i-gov"/></svg></span><div><h3 data-i18n="srv1.t"></h3><p data-i18n="srv1.d"></p></div><span class="sv__go"><svg><use href="#i-arrow"/></svg></span></li>
+        <li class="sv rv"><span class="sv__n">02</span><span class="sv__ic"><svg><use href="#i-home"/></svg></span><div><h3 data-i18n="srv2.t"></h3><p data-i18n="srv2.d"></p></div><span class="sv__go"><svg><use href="#i-arrow"/></svg></span></li>
+        <li class="sv rv"><span class="sv__n">03</span><span class="sv__ic"><svg><use href="#i-shop"/></svg></span><div><h3 data-i18n="srv3.t"></h3><p data-i18n="srv3.d"></p></div><span class="sv__go"><svg><use href="#i-arrow"/></svg></span></li>
+        <li class="sv rv"><span class="sv__n">04</span><span class="sv__ic"><svg><use href="#i-plan"/></svg></span><div><h3 data-i18n="srv4.t"></h3><p data-i18n="srv4.d"></p></div><span class="sv__go"><svg><use href="#i-arrow"/></svg></span></li>
+        <li class="sv rv"><span class="sv__n">05</span><span class="sv__ic"><svg><use href="#i-calc"/></svg></span><div><h3 data-i18n="srv5.t"></h3><p data-i18n="srv5.d"></p></div><span class="sv__go"><svg><use href="#i-arrow"/></svg></span></li>
+        <li class="sv rv"><span class="sv__n">06</span><span class="sv__ic"><svg><use href="#i-helmet"/></svg></span><div><h3 data-i18n="srv6.t"></h3><p data-i18n="srv6.d"></p></div><span class="sv__go"><svg><use href="#i-arrow"/></svg></span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS (carousel) ===== -->
+  <section class="sec prj" id="projects">
+    <div class="wrap">
+      <div class="prj__top">
+        <div class="sh sh--tight rv">
+          <span class="tag-n">03</span>
+          <div>
+            <span class="eyebrow" data-i18n="prj.label">Our Work</span>
+            <h2 class="t" data-i18n="prj.title">Recent <span>Projects</span></h2>
+          </div>
+        </div>
+        <div class="prj__tools rv">
+          <div class="seg" id="filters">
+            <button class="is-active" data-filter="all" data-i18n="prj.all">All</button>
+            <button data-filter="gov" data-i18n="prj.gov">Government</button>
+            <button data-filter="pvt" data-i18n="prj.pvt">Private</button>
+          </div>
+          <div class="prj__arrows">
+            <button class="rb rb--dark" id="prjPrev" aria-label="Previous"><svg><use href="#i-left"/></svg></button>
+            <button class="rb rb--dark" id="prjNext" aria-label="Next"><svg><use href="#i-right"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rail" id="rail"><!-- cards from js/projects.js --></div>
+    <div class="wrap"><div class="rail__progress"><span id="railBar"></span></div></div>
+  </section>
+
+  <!-- ===== BEFORE / AFTER ===== -->
+  <section class="sec ba2" id="before-after">
+    <div class="wrap ba2__grid">
+      <div class="ba2__text rv">
+        <span class="tag-n">04</span>
+        <span class="eyebrow" data-i18n="ba.label">Before &amp; After</span>
+        <h2 class="t" data-i18n="ba.title">See the <span>Transformation</span></h2>
+        <p data-i18n="ba.intro"></p>
+        <div class="ba2__meta">
+          <strong data-i18n="ba.cap">Residential Bungalow, Umrala</strong>
+          <span><svg><use href="#i-pin"/></svg><span data-i18n="ba.loc">Umrala, Dist. Bhavnagar</span></span>
+        </div>
+        <a href="project.html?id=bungalow-umrala" class="b b--dark"><span data-i18n="prj.view">View Details</span><svg><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="ba rv" id="ba" style="--pos:50%">
+        <img class="ba__img" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=72&auto=format&fit=crop" alt="Before" draggable="false" />
+        <div class="ba__after"><img class="ba__img" src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1400&q=72&auto=format&fit=crop" alt="After" draggable="false" /></div>
+        <span class="ba__lb ba__lb--l" data-i18n="ba.before">Before</span>
+        <span class="ba__lb ba__lb--r" data-i18n="ba.after">After</span>
+        <div class="ba__line"><span class="ba__knob"><svg><use href="#i-left"/></svg><svg><use href="#i-right"/></svg></span></div>
+        <input type="range" class="ba__range" min="0" max="100" value="50" aria-label="Compare before and after" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="sec proc">
+    <div class="wrap">
+      <div class="sh rv">
+        <span class="tag-n">05</span>
+        <div>
+          <span class="eyebrow" data-i18n="pr.label">How We Work</span>
+          <h2 class="t" data-i18n="pr.title">Simple <span>4-Step</span> Process</h2>
+        </div>
+      </div>
+      <div class="proc__row">
+        <div class="ps rv"><span class="ps__n">01</span><span class="ps__ic"><svg><use href="#i-chat"/></svg></span><h3 data-i18n="st1.t"></h3><p data-i18n="st1.d"></p></div>
+        <div class="ps rv"><span class="ps__n">02</span><span class="ps__ic"><svg><use href="#i-plan"/></svg></span><h3 data-i18n="st2.t"></h3><p data-i18n="st2.d"></p></div>
+        <div class="ps rv"><span class="ps__n">03</span><span class="ps__ic"><svg><use href="#i-calc"/></svg></span><h3 data-i18n="st3.t"></h3><p data-i18n="st3.d"></p></div>
+        <div class="ps rv"><span class="ps__n">04</span><span class="ps__ic"><svg><use href="#i-key"/></svg></span><h3 data-i18n="st4.t"></h3><p data-i18n="st4.d"></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY (bento) ===== -->
+  <section class="sec gal2" id="gallery-section">
+    <div class="wrap">
+      <div class="gal2__top">
+        <div class="sh sh--tight rv">
+          <span class="tag-n tag-n--light">06</span>
+          <div>
+            <span class="eyebrow eyebrow--light" data-i18n="gal.label">Gallery</span>
+            <h2 class="t t--light" data-i18n="gal.title">Our Work in <span>Pictures</span></h2>
+          </div>
+        </div>
+        <p class="gal2__intro rv" data-i18n="gal.intro"></p>
+      </div>
+      <div class="mosaic" id="photoGrid"><!-- from js/projects.js --></div>
+      <div class="gal2__more"><button class="b b--or" id="galMore" type="button"><svg><use href="#i-plus"/></svg><span data-i18n="gal.more">View More Photos</span></button></div>
+    </div>
+  </section>
+
+  <!-- ===== WHY + AREA ===== -->
+  <section class="sec why2">
+    <div class="wrap why2__grid">
+      <div class="why2__card rv">
+        <span class="eyebrow" data-i18n="why.label">Why Choose Us</span>
+        <h2 class="t" data-i18n="why.title">Built on <span>Trust &amp; Quality</span></h2>
+        <p class="muted" data-i18n="why.intro"></p>
+        <div class="why2__list">
+          <div class="wi"><span class="wi__ic"><svg><use href="#i-cap"/></svg></span><div><h3 data-i18n="w1.t"></h3><p data-i18n="w1.d"></p></div></div>
+          <div class="wi"><span class="wi__ic"><svg><use href="#i-receipt"/></svg></span><div><h3 data-i18n="w2.t"></h3><p data-i18n="w2.d"></p></div></div>
+          <div class="wi"><span class="wi__ic"><svg><use href="#i-shield"/></svg></span><div><h3 data-i18n="w3.t"></h3><p data-i18n="w3.d"></p></div></div>
+          <div class="wi"><span class="wi__ic"><svg><use href="#i-clock"/></svg></span><div><h3 data-i18n="w4.t"></h3><p data-i18n="w4.d"></p></div></div>
+        </div>
+      </div>
+      <div class="area2 rv">
+        <span class="eyebrow eyebrow--light" data-i18n="ar.label">Service Area</span>
+        <h2 class="t t--light" data-i18n="ar.title">Serving <span>Bhavnagar &amp; Amreli</span></h2>
+        <p data-i18n="ar.text"></p>
+        <div class="area2__map" aria-hidden="true">
+          <span class="pin pin--hq"><i></i><b data-i18n="v2.hq">Dhola</b></span>
+          <span class="pin pin--a"><i></i><b data-i18n="v2.bhav">Bhavnagar</b></span>
+          <span class="pin pin--b"><i></i><b data-i18n="v2.amr">Amreli</b></span>
+          <svg viewBox="0 0 300 180" preserveAspectRatio="none"><path d="M60 120 C 110 60, 170 70, 230 50" /><path d="M60 120 C 100 140, 130 150, 150 160" /></svg>
+        </div>
+        <div class="area2__d">
+          <div><h3 data-i18n="ar.d1">Bhavnagar District</h3><p data-i18n="ar.d1p"></p></div>
+          <div><h3 data-i18n="ar.d2">Amreli District</h3><p data-i18n="ar.d2p"></p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="sec faq2" id="faq">
+    <div class="wrap faq2__grid">
+      <div class="faq2__head rv">
+        <span class="tag-n">07</span>
+        <span class="eyebrow" data-i18n="faq.label">FAQ</span>
+        <h2 class="t" data-i18n="faq.title">Frequently Asked <span>Questions</span></h2>
+        <p class="muted" data-i18n="faq.intro"></p>
+        <a href="https://wa.me/918460502992" target="_blank" rel="noopener" class="b b--wa"><svg><use href="#i-wa"/></svg><span data-i18n="btn.wa">WhatsApp</span></a>
+      </div>
+      <div class="faq2__list rv">
+        <details class="fq" open><summary><span class="fq__n">01</span><span data-i18n="q1"></span><i></i></summary><p data-i18n="a1"></p></details>
+        <details class="fq"><summary><span class="fq__n">02</span><span data-i18n="q2"></span><i></i></summary><p data-i18n="a2"></p></details>
+        <details class="fq"><summary><span class="fq__n">03</span><span data-i18n="q3"></span><i></i></summary><p data-i18n="a3"></p></details>
+        <details class="fq"><summary><span class="fq__n">04</span><span data-i18n="q4"></span><i></i></summary><p data-i18n="a4"></p></details>
+        <details class="fq"><summary><span class="fq__n">05</span><span data-i18n="q5"></span><i></i></summary><p data-i18n="a5"></p></details>
+        <details class="fq"><summary><span class="fq__n">06</span><span data-i18n="q6"></span><i></i></summary><p data-i18n="a6"></p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="sec ct2" id="contact">
+    <div class="wrap">
+      <div class="ct2__banner rv">
+        <div>
+          <span class="eyebrow eyebrow--dark" data-i18n="ct.label">Contact</span>
+          <h2 data-i18n="cta.t">Planning to build? Let's talk.</h2>
+        </div>
+        <a href="tel:+918460502992" class="ct2__phone"><small data-i18n="v2.callBig">Call us directly</small><span>+91 84605 02992</span></a>
+      </div>
+
+      <div class="ct2__grid">
+        <div class="ct2__info rv">
+          <a class="ci" href="https://wa.me/918460502992" target="_blank" rel="noopener"><span class="ci__ic ci__ic--wa"><svg><use href="#i-wa"/></svg></span><div><small data-i18n="ct.phone">Call / WhatsApp</small><strong>+91 84605 02992</strong></div><svg class="ci__go"><use href="#i-arrow"/></svg></a>
+          <a class="ci" href="mailto:tushar02992@gmail.com"><span class="ci__ic"><svg><use href="#i-mail"/></svg></span><div><small data-i18n="ct.email">Email</small><strong>tushar02992@gmail.com</strong></div><svg class="ci__go"><use href="#i-arrow"/></svg></a>
+          <div class="ci"><span class="ci__ic"><svg><use href="#i-pin"/></svg></span><div><small data-i18n="ct.addr">Address</small><strong data-i18n="ct.addrv"></strong></div></div>
+          <div class="ci"><span class="ci__ic"><svg><use href="#i-clock"/></svg></span><div><small data-i18n="ct.meet">Meetings</small><strong data-i18n="ct.meetv"></strong></div></div>
+          <div class="ct2__map"><iframe title="Location map" src="https://www.google.com/maps?q=Dhola+Junction,+Umrala,+Bhavnagar,+Gujarat+364320&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+
+        <form class="fm rv" id="enquiryForm" novalidate>
+          <h3 data-i18n="f.title">Send an Enquiry</h3>
+          <label class="fl"><input type="text" name="name" placeholder=" " required /><span data-i18n="f.name">Your Name</span></label>
+          <label class="fl"><input type="tel" name="phone" inputmode="numeric" maxlength="10" placeholder=" " required /><span data-i18n="f.phone">Mobile Number</span></label>
+          <div class="fm__types" role="radiogroup">
+            <span class="fm__lbl" data-i18n="f.type">Type of Work</span>
+            <label><input type="radio" name="type" value="f.o1" checked /><span data-i18n="f.o1"></span></label>
+            <label><input type="radio" name="type" value="f.o2" /><span data-i18n="f.o2"></span></label>
+            <label><input type="radio" name="type" value="f.o3" /><span data-i18n="f.o3"></span></label>
+            <label><input type="radio" name="type" value="f.o4" /><span data-i18n="f.o4"></span></label>
+            <label><input type="radio" name="type" value="f.o5" /><span data-i18n="f.o5"></span></label>
+            <label><input type="radio" name="type" value="f.o6" /><span data-i18n="f.o6"></span></label>
+          </div>
+          <label class="fl"><textarea name="msg" rows="3" placeholder=" "></textarea><span data-i18n="f.msg">Message</span></label>
+          <p class="fm__err" id="formError" data-i18n="f.err" hidden></p>
+          <button type="submit" class="b b--wa b--block b--lg"><svg><use href="#i-wa"/></svg><span data-i18n="f.send">Send on WhatsApp</span></button>
+          <small class="fm__note" data-i18n="f.note"></small>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="ft">
+    <div class="wrap">
+      <div class="ft__top">
+        <div class="ft__brand">
+          <img src="img/logo-white.png" alt="TM logo" />
+          <div><strong data-i18n="brand.name">TM Construction</strong><span data-i18n="ft.tag"></span></div>
+        </div>
+        <nav class="ft__links">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#gallery-section" data-i18n="nav.gallery">Gallery</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="ft__ct">
+          <a href="tel:+918460502992">+91 84605 02992</a>
+          <a href="mailto:tushar02992@gmail.com">tushar02992@gmail.com</a>
+          <span data-i18n="ft.addr"></span>
+        </div>
+      </div>
+      <div class="ft__giant" aria-hidden="true">TM CONSTRUCTION</div>
+      <div class="ft__bottom">
+        <span data-i18n="ft.copy"></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating buttons -->
+  <div class="fl-btns">
+    <button class="fb fb--top" id="toTop" type="button" aria-label="Back to top"><svg class="fb__ring" viewBox="0 0 56 56"><circle cx="28" cy="28" r="26"/></svg><svg><use href="#i-up"/></svg></button>
+    <a href="https://wa.me/918460502992" target="_blank" rel="noopener" class="fb fb--wa" aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
